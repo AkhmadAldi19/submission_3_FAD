@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match"
+    tools:context=".userprofile.DetailActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        style="@style/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Circular"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/wrap.name"
+        app:layout_constraintEnd_toEndOf="@+id/image"
+        app:layout_constraintStart_toStartOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/image"/>
+
+    <TextView
+        android:id="@+id/username2"
+        style="@style/wrap.usernamedetail"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <LinearLayout
+        android:id="@+id/value"
+        style="@style/wrap.l2"
+        app:layout_constraintEnd_toEndOf="@+id/username2"
+        app:layout_constraintStart_toStartOf="@+id/username2"
+        app:layout_constraintTop_toBottomOf="@+id/username2">
+
+        <LinearLayout style="@style/wrap.l">
+            <TextView
+                android:id="@+id/repository"
+                style="@style/wrap.number" />
+            <TextView
+                android:id="@+id/textRepo"
+                style="@style/wrap.text"
+                android:text="@string/repository"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/wrap.l">
+            <TextView
+                android:id="@+id/followers"
+                style="@style/wrap.number" />
+            <TextView
+                android:id="@+id/Textwers"
+                style="@style/wrap.text"
+                android:text="@string/followers" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/wrap.l1">
+            <TextView
+                android:id="@+id/following"
+                style="@style/wrap.number" />
+            <TextView
+                android:id="@+id/Textwing"
+                style="@style/wrap.text"
+                android:text="@string/following" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/location"
+        style="@style/wrap.log.location"
+        app:layout_constraintStart_toEndOf="@+id/iconLocation"
+        app:layout_constraintTop_toBottomOf="@+id/value"
+        tools:text="@string/location" />
+
+    <TextView
+        android:id="@+id/work"
+        style="@style/wrap.log.work"
+        app:layout_constraintStart_toEndOf="@+id/iconWork"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        tools:text="@string/company" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        style="@style/mix.tab"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/work"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        style="@style/nol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs" />
+
+
+    <ImageButton
+        android:id="@+id/btnShare"
+        style="@style/button.share"
+        android:background="@drawable/ic_baseline_share_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/share"/>
+
+    <ToggleButton
+        android:id="@+id/favoriteToggle"
+        style="@style/button.favorit"
+        android:background="@drawable/favorite_toggle"
+        app:layout_constraintEnd_toStartOf="@+id/btnShare"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/favorite"/>
+
+    <ImageView
+        android:id="@+id/iconLocation"
+        style="@style/icon.location"
+        android:contentDescription="@string/location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    <ImageView
+        android:id="@+id/iconWork"
+        style="@style/icon.work"
+        android:contentDescription="@string/company"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconLocation"
+        app:srcCompat="@drawable/ic_baseline_work_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Search User</string>
+    <string name="name">Naruto Uzumaki</string>
+    <string name="id">12787182</string>
+    <string name="Tid">Id :</string>
+    <string name="search">Search</string>
+    <string name="username">Naruto19:)</string>
+    <string name="repo">12</string>
+    <string name="location">Pasuruan, Jawa timur, Indonesia</string>
+    <string name="company">pt masgudelmencari</string>
+    <string name="repository">Repository</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="tab1">Followers</string>
+    <string name="tab2">Following</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_favorite">My Favorite User</string>
+    <string name="title_detail">User Profile</string>
+    <string name="share">Share</string>
+    <string name="background">background</string>
+    <string name="logo">logo</string>
+    <string name="flogo">flogo</string>
+</resources>

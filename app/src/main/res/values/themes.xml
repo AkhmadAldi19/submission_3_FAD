@@ -1,0 +1,209 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUserAppfinal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <item name="colorOnPrimary">@color/orange_700</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_700</item>
+        <item name="colorSecondaryVariant">@color/orange_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+    <style name="button.favorit">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:textOff">""</item>
+        <item name="android:textOn">""</item>
+    </style>
+    <style name="button.share">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+    <style name="icon.location">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="icon.work">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+
+
+
+
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="imageList">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="lottiemain">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="searchuser">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+    <style name="frame">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="mix">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="mix.tab">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/orange_500</item>
+        <item name="tabTextColor">@color/white</item>
+    </style>
+    <style name="mix.matwr">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="nol">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="nol.rv">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match.center">
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="match.input">
+        <item name="android:hint">@string/search</item>
+        <item name="android:inputType">text</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="wrap.username">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">120dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    <style name="wrap.id">
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="wrap.tid">
+        <item name="android:layout_marginStart">120dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="wrap.iv_search">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:src">@drawable/ic_search</item>
+    </style>
+    <style name="wrap.name">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/orange_700</item>
+        <item name="android:text">@string/name</item>
+    </style>
+    <style name="wrap.usernamedetail">
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray_200</item>
+        <item name="android:text">@string/username</item>
+    </style>
+    <style name="wrap.l2">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/orange_700</item>
+    </style>
+    <style name="wrap.l">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="wrap.l1">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="wrap.number">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/orange_700</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/repo</item>
+    </style>
+    <style name="wrap.text">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/grey_100</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="wrap.log">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/grey_100</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="wrap.log.location">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">17dp</item>
+    </style>
+    <style name="wrap.log.work">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+</resources>

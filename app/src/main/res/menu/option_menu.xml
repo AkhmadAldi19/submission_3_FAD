@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/theme_switch_button"
+        app:actionViewClass="com.google.android.material.switchmaterial.SwitchMaterial"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/favorite_menu"
+        android:checkable="false"
+        android:icon="@drawable/ic_favorite_white"
+        android:title="@string/favorite"
+        app:showAsAction="always" />
+
+</menu>
